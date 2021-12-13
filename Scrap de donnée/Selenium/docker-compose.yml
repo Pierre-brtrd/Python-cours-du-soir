@@ -1,0 +1,7 @@
+version: '3.9'
+services:
+  scrapping:
+    build: ubython
+    container_name: scrap-data
+    volumes:
+      - ./app:/scrap:rw
